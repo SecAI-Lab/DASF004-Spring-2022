@@ -1,4 +1,3 @@
-#include <stdio.h>
 #define TRUE 1
 #define FALSE 0
 #define VISIT 'v'
@@ -23,7 +22,7 @@ int success;
 int visit(int i, int j);
 void read_maze();
 
-int main(void) {
+void q2(void) {
   success = FALSE;
 
   read_maze();
@@ -41,6 +40,5 @@ int main(void) {
   else
     printf("\n");
 
-  return 0;
 }
 

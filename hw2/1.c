@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-
 #define PASSWD_SZ 31
 #define TRUE 1
 #define FALSE 0
@@ -10,9 +7,9 @@ char special_letters[] = "!%_&#+-*/";
 
 int check_passwd(char* password, int passwd_len);
 
-int main(void)
+void q1(void)
 {
-	int res;
+	int res = FALSE;
 	char password[PASSWD_SZ];
 
 	while (1) {
@@ -27,5 +24,4 @@ int main(void)
 			printf("Bad password!\n");			
 	}
 
-	return(0);
 }

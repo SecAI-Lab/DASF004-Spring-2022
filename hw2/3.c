@@ -1,9 +1,6 @@
-#include <stdio.h>
-#include <string.h>
-
 char* file_path = "words.txt";
 
-int main(void) {
+void q3(void) {
 	char subword[20];
 
 	printf("Enter a subword to find: ");
@@ -19,5 +16,4 @@ int main(void) {
 	printf("%d %d %.2lf%% %d %d\n", ans_31, ans_32, \
 				ans_33, ans_34, ans_35);
 
-	return 0;
 }
