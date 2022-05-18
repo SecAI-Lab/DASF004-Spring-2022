@@ -1,3 +1,5 @@
+#include "hw2.h"
+
 #define TRUE 1
 #define FALSE 0
 #define VISIT 'v'
@@ -34,11 +36,11 @@ void q2(void) {
   // End coordinate
   ei = SZ-2; 
   ej = SZ-2;
-
+  
   if (visit(si, sj) == FALSE)
     printf("No exit!\n");
   else
     printf("\n");
-
+  
 }
 

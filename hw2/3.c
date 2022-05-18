@@ -1,3 +1,5 @@
+#include "hw2.h"
+
 char* file_path = "words.txt";
 
 void q3(void) {

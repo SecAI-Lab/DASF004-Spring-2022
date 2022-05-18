@@ -1,3 +1,5 @@
+#include "hw2.h"
+
 #define PASSWD_SZ 31
 #define TRUE 1
 #define FALSE 0
