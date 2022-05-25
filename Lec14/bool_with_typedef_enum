@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+typedef enum {false, true} bool;
+
+int main() {
+    bool __isTrue = true;
+
+    if (__isTrue) {
+        printf("Yes, it is true.");
+    }
+    else {
+        printf("Nope, it is not true.");
+    }
+}
